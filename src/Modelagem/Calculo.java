@@ -1,10 +1,10 @@
-import java.util.Map;
-import java.util.Scanner;
+package Modelagem;
 
+import java.util.Map;
+import MapKeyValue.MapGson;
 
 public class Calculo {
     private final Request cambiar;
-    Scanner scanner = new Scanner(System.in);
     public Calculo() {
         this.cambiar = new Request ();
     }
